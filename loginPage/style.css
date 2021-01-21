@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+main .zoneLogin {
+  width: 40%;
+  height: 800px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .zoneLogin .logo {
+  display: flex;
+  justify-content: center;
+}
+main .zoneLogin .loginInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .zoneLogin .loginInput label {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+main .zoneLogin .loginInput input {
+  width: 70%;
+  margin: auto;
+  height: 30px;
+  background-color: black;
+  color: white;
+  cursor: url('dlaha.png'), auto;
+}
+main .zoneLogin .loginInput #submit {
+  background-color: rgb(255, 175, 27);
+  border: none;
+  margin-top: 20px;
+}
+main .zoneLogin .loginInput #submit:hover {
+  background-color: rgb(255, 198, 91);
+}
+main .zoneLogin .rst {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+main .zoneLogin .rst p {
+  margin-top: 30px;
+}
+main .zoneLogin .rst p a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+main .zoneLogin .rst .khat {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+main .zoneLogin .rst .khat h3 {
+  color: white;
+}
+main .zoneLogin .rst .khat hr{
+  width: 25%;
+  margin: 5px;
+}
+main .zoneLogin .rst #creatAccount{
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  width: 245px;
+margin-top: 30px;
+height: 30px;
+margin-left: 30%;
+}
+main .zoneLogin .rst #creatAccount:hover{
+  border: 2px solid rgb(255, 196, 85);
+  color: rgb(255, 196, 85);
+}
+main .zoneLogin .rst #creatAccount p{
+  margin-top: 3px;
+}
+main .zoneLogin .cpy{
+  text-align: center;
+margin-top: 30px;
+}
+main .zoneLogin .cpy p{
+  color: white;
+}
+main .zoneLogin .cpy div{
+margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+main .zoneLogin .cpy div a{
+  text-decoration: none;
+  color:rgb(255, 175, 27) ;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/*free trail style*/
+main .zoneFree {
+  width: 60%;
+  height: 800px;
+  background: url("login-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .zoneFree h1 {
+  color: white;
+  font-size: 50px;
+}
+main .zoneFree a {
+  text-decoration: none;
+}
+main .zoneFree a p {
+  color: white;
+  border: 2px solid white;
+  margin-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 30px;
+}
+main .zoneFree p:hover {
+  border: 2px solid rgb(255, 196, 85);
+  color: rgb(255, 196, 85);
+}
+/*media screen*/
+@media screen and (max-width: 600px){
+  main .zoneFree{
+    display: none;
+  }
+  main .zoneLogin{
+    width: 100%;
+  }
